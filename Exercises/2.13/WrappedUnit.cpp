@@ -36,10 +36,11 @@ ostream & operator<<(ostream & os, const WrappedUInt & wi) {
 }
 
 bool operator==(const WrappedUInt & lhs, const UInt rhs) {
-    return lhs == rhs.m_value;
+    return lhs.m_value == rhs;
 }
 
-int main() {
+bool operator==(const UInt lhs, const WrappedUInt & rhs) {
+    return lhs == rhs.m_value;
 }
 
 int main() {
