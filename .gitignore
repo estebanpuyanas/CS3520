@@ -1,5 +1,44 @@
 # Demo Tools Fork
-cs3520-demo-tools/
+.cs3520-demo-tools/
 
-# Deom Unit Testing Tools 
-cs3520-demo-tools-unit-testing/
+# Demo Unit Testing Tools 
+.cs3520-demo-tools-unit-testing/
+
+# VS Code Stuff
+.vscode/
+
+# Test.py result log
+test.log
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
